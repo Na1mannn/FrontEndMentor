@@ -1,0 +1,97 @@
+body{
+    background-color: #F3E5D8;
+    font-family: Outfit;
+    color: rgb(65, 63, 63);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px 50px;
+    margin: 70px 550px;
+
+}
+
+
+.photobox{
+    display: flex;
+    justify-content: center;
+}
+.photo{
+    width: 700px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+h1{
+    font-family: Young Serif;
+}
+
+h2{
+    font-family: Young Serif;
+    color: #894A3B;
+
+}
+li{
+    margin-top: 10px;
+}
+
+.title{
+
+    margin-right: 35px;
+    
+}
+
+
+.preparationbox{
+    margin-left: 30px;
+    
+}
+.preparationbox h3{
+    color: #6A344B;
+}
+.preparationbox li::marker{
+    color: #6A344B;
+}
+
+
+
+.ingredients li::marker{
+    color: #894A3B;
+}
+
+
+
+.border{
+    height: 1px;
+    background-color: rgb(224, 218, 218);
+    margin-right: 50px;
+}
+
+
+.instructions li::marker{
+    color: #894A3B;
+    font-weight: bold;
+}
+
+
+.nutri{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 20px;
+    margin: 20px;
+    
+}
+
+.g{
+    display: flex;
+    color: #894A3B;
+    font-weight: bold;
+    width: 0px;
+
+    
+}
