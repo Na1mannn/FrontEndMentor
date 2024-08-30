@@ -1,0 +1,90 @@
+body{
+    background-color: #F3EAE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.photobox{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.photo{
+    width: 330px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.2);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+   
+.perfume{
+    font-family: Montserrat;
+    color: grey;
+}
+
+.title{
+    width: 240px;
+    margin-bottom: 5px;
+    font-family: Fraunces;
+}
+
+.content{
+    width: 280px;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    color: rgb(48, 48, 48);
+}
+
+.pricebox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: Fraunces;
+}
+.price{
+    color: #408169;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 30px;
+    
+}
+.oldprice{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.buttonbox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.addcartbutton{
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3D8168;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.icon{
+    margin-right: 5px;
+}
