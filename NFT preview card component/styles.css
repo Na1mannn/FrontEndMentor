@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family: Outfit;
+    background-color: #0D1A2D;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.bluebox{
+    display: flex;
+    flex-direction: column;
+    background-color: #15273F;
+    width: 280px;
+    padding-left: 20px;
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.coverbox{
+    display: flex;
+
+}
+
+.cover{
+    width: 260px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content{
+    font-size: 15px;
+    width: 270px;
+    color: #677e9b;
+}
+
+.info{
+    margin-top: 20px;
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.coin{
+    display: flex;
+}
+
+.coinsimbol{
+    height: 20px;
+    margin-right: 5px;
+}
+.eth{
+    font-weight: bold;
+    color: #5EE2E7;
+}
+
+.days{
+    display: flex;
+
+}
+
+.daystext{
+    display: flex;
+    padding-right: -10px;
+    width: 80px;
+    margin-left: 10px;
+    color: #677e9b;
+}
+
+.timeicon{
+    margin-right: -8px;
+}
+
+.bar{
+    margin-top: 20px;
+    border: 0.5px solid #2F4159;;
+    margin-right: 20px;
+}
+
+.perfil{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.perfilphoto{
+    width: 30px;
+    border: solid 1px white;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.perfilinfo{
+    color: #8CA3C5;
+    font-weight: bold;
+}
+
+.perfilname{
+    color: white;
+}
