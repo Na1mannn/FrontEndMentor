@@ -1,0 +1,108 @@
+body{
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: -1;
+    margin: 0;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #E0E8FF;
+    background-size: 100vw;
+}
+
+
+
+.backimg{
+   width: 1920px;
+   height: 1080px;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+.topphoto{
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.infobox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 0;
+    border-radius: 20px;
+}
+
+.title{
+    font-size: 22px;
+}
+.info{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.pricebox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.musicicon{
+    width: 40px;
+}
+.prices{
+    margin-right: 30px;
+    margin-left: 10px;
+    width: 125px;
+}
+
+.changelink, .changelink:visited{
+    font-size: 14px;
+    color: #382AE1;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.button1{
+    background-color: #382AE1;
+    border: none;
+    padding: 12px 80px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button2{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    font-weight: bold;
+    color: rgb(82, 81, 81);
+    cursor: pointer;
+
+}
